@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fourththeme"
+    tools:context=".fortune.OracleActivity"
+    tools:viewBindingIgnore="true">
+
+    <RelativeLayout
+        android:id="@+id/RelativeSeven"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/oracleCardOne"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/readDescribing_0"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/oracleCardTwo"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="125dp"
+            android:contentDescription="@string/readDescribing_0"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/oracleCardThree"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/readDescribing_0"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewFirst"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewSecond"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_below="@id/cardViewFirst"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewThird"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_below="@id/cardViewSecond"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewFourth"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewFifth"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_above="@id/cardViewSixth"
+            android:layout_below="@+id/cardViewFourth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewSixth"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_above="@+id/bigText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewSeventh"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewEighth"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_below="@id/cardViewSeventh"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <ImageView
+            android:id="@+id/cardViewNinth"
+            android:layout_width="75dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/cardViewEighth"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="TODO"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/my_border" />
+
+        <TextView
+            android:id="@+id/bigText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cardViewThird"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/cardo"
+            android:lineSpacingExtra="4sp"
+            android:lines="20"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintVertical_bias="0.966" />
+
+        <TextView
+            android:id="@+id/oracleText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/oracleCardTwo"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:lineSpacingExtra="4sp"
+            android:lines="20"
+            android:scrollbars="vertical"
+            android:scrollHorizontally="false"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

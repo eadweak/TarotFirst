@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tarotfirst">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TarotFirst">
+        <activity
+            android:name=".HoralActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".fortune.CompatActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".fortune.SevenStarsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lists.ReadingCardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fortune.OracleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fortune.LinkCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lists.ListOfCardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fortune.CardOfTheDayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
